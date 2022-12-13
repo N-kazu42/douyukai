@@ -40,3 +40,59 @@ main{
 .coming-soon{
     font-size: xx-large;
 }
+.nav__header{
+    align-self: center;
+}
+
+.header__facebook{
+    margin-top: 2rem;
+}
+
+@media screen and (max-width: 767px){
+    .nav__header__list li a::before {
+        display: inline-block;
+        text-align: center;
+        vertical-align: middle;
+        width: 60px;
+        
+    }
+    .menu-1::before{
+        content: url(../img/menu-icon1-sp.png);
+    }
+    .menu-2::before{
+        content: url(../img/menu-icon2-sp.png);
+    }
+    .menu-3::before{
+        content: url(../img/menu-icon3-sp.png);
+    }
+    .menu-4::before{
+        content: url(../img/menu-icon4-sp.png);
+    }
+    .menu-5::before{
+        content: url(../img/menu-icon5-sp.png);
+    }
+    .menu-6::before{
+        content: url(../img/menu-icon6-sp.png);
+    }
+    .menu-7::before{
+        content: url(../img/menu-icon7-sp.png);
+    }
+    .menu-8::before{
+        content: url(../img/menu-icon8-sp.png);
+    }
+    .nav__header__list li a{
+        display: flex;
+    }
+    .header__facebook::before{
+        content: "";
+        margin-left: 10px;
+    }
+}
+@media screen and (max-width: 480px){
+    .kv__left{
+        width: 50%;
+    }
+    .kv__right{
+        width: 50%;
+    }
+}

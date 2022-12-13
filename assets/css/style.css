@@ -3157,4 +3157,16 @@ main {
   .kv__right {
     width: 50%;
   }
+}
+.sento img {
+  display: none;
+  width: 34.3%;
+}
+
+.sento {
+  background-image: url("../img/sento.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 34.3%;
+  height: 300px;
 }/*# sourceMappingURL=style.css.map */

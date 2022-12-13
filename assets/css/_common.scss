@@ -1,0 +1,65 @@
+//ブレイクポイントの種類を定義
+
+$breakpoint: (
+  ssp: "screen and (max-width: 330px)",
+  sp: "screen and (max-width: 480px)",
+  sp-y: "screen and (max-width: 700px)",
+  tab: "screen and (max-width: 768px)",
+  tab-y: "screen and (max-width: 820px)",
+  pc: "screen and (max-width: 1080px)",
+);
+
+@mixin mq($bp) {
+  @media #{map-get($breakpoint, $bp)} {
+    @content;
+  }
+}
+
+
+.kmft {
+  font-family: "Kiwi Maru", serif;
+}
+.nsft {
+  font-family: 'Noto Serif JP', serif;
+  font-weight: lighter;
+}
+.ftw5 {
+  font-weight: 500;
+}
+.ftw3 {
+  font-weight: 300;
+}
+
+
+//フレックス
+@mixin flex($justify: space-between, $align: center) {
+  display: flex;
+  display: -webkit-flex; //Safari,Android,iOS対応
+  display: -ms-flexbox; //IE対応
+  justify-content: $justify;
+  -webkit-box-pack: $justify; //Safari,Android,iOS対応
+  -ms-flex-pack: $justify; //IE対応
+  align-items: $align;
+  -webkit-box-align: $align; //Safari,Android,iOS対応
+  -ms-flex-align: $align; //IE対応
+}
+
+//ポジション
+@mixin position($top: 0, $right: auto, $bottom: auto, $left: 0) {
+  position: absolute;
+  top: $top;
+  right: $right;
+  bottom: $bottom;
+  left: $left;
+}
+
+//インナー
+.inner {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}

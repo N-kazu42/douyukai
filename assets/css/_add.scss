@@ -1,0 +1,42 @@
+.header__nav__item{
+    
+    img{
+        height: 30px;
+        margin-bottom: 5px;
+        @media screen and(max-width:920px){
+            display: none;
+        }
+    }
+}
+
+.nav__header__list li a {
+    @media screen and(max-width:920px){
+        padding-top: 8px;
+        padding-bottom: 0;
+    }
+
+}
+.kv__ttl{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+main{
+    background: url(../img/bg-wave.png) center top 60px repeat-y,url(../img/body-bg.jpg) center top;
+}
+.section__ttl{
+    display: block;
+    text-align: center;
+    img{
+
+        @media screen and(max-width:920px){
+        width: 25%;
+        }
+    }
+}
+.coming-soon{
+    font-size: xx-large;
+}

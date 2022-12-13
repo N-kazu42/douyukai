@@ -436,7 +436,7 @@ textarea {
 }
 
 .nav__header__list li a:hover {
-    color: #008241
+    color: $third-color
 }
 
 .header__facebook {
@@ -515,7 +515,7 @@ textarea {
     content: "";
     width: 2px;
     height: 100%;
-    background: #008241;
+    background: $third-color;
     position: absolute;
     right: -40px;
     top: 58%;
@@ -623,7 +623,7 @@ textarea {
 
 .section__ttl {
     font-size: 2rem;
-    color: #008241;
+    color: $third-color;
     display: inline-block;
     margin-top: 50px
 }
@@ -642,7 +642,7 @@ textarea {
     content: "";
     width: 2px;
     height: 80%;
-    background: #008241;
+    background: $third-color;
     position: absolute;
     right: -40px;
     top: 58%;
@@ -651,7 +651,7 @@ textarea {
 }
 
 .section__ttl .en span {
-    color: #008241
+    color: $third-color
 }
 
 .section__ttl .sp {
@@ -865,7 +865,7 @@ textarea {
     font-weight: 700;
     font-size: 4.6rem;
     font-style: italic;
-    color: #008241;
+    color: $third-color;
     position: absolute;
     top: 50%;
     left: 0;
@@ -1089,7 +1089,7 @@ textarea {
     left: 0;
     right: 0;
     z-index: -1;
-    background-color: #008241
+    background-color: $third-color
 }
 
 .perform__txt__wrap hr {
@@ -1254,14 +1254,14 @@ textarea {
     align-items: center;
     padding-bottom: 34px;
     margin-bottom: 30px;
-    border-bottom: 1px solid #008241
+    border-bottom: 1px solid $third-color
 }
 
 .perform__ttl_wrap .number {
     font-size: 58px;
     font-style: italic;
     font-weight: 700;
-    color: #008241;
+    color: $third-color;
     text-align: center;
     width: 65px;
     margin-right: 50px
@@ -1283,7 +1283,7 @@ textarea {
     content: "";
     width: 2px;
     height: 100%;
-    background: #008241;
+    background: $third-color;
     position: absolute;
     -webkit-transform: rotate(5deg);
     transform: rotate(5deg);
@@ -1429,7 +1429,7 @@ textarea {
 }
 
 .comingSoon {
-    background: linear-gradient(80deg, #000c06, #01331a 50%, #008241 90%);
+    background: linear-gradient(80deg, #000c06, #01331a 50%, $third-color 90%);
     padding: 79px 0 84px
 }
 
@@ -1443,7 +1443,7 @@ textarea {
 }
 
 .comingSoon__txt .head {
-    color: #008241
+    color: $third-color
 }
 
 .comingSoon__txt .jp {
@@ -1502,7 +1502,7 @@ textarea {
     left: 0;
     right: 0;
     z-index: -1;
-    background-color: #008241
+    background-color: $third-color
 }
 
 .g-label.__small {
@@ -1896,7 +1896,7 @@ textarea {
 
     .nav__header__list li:not(:first-child):before {
         // content: "/";
-        color: #008241;
+        color: $third-color;
         position: absolute;
         left: -5px;
         top: 50%;
@@ -3023,7 +3023,7 @@ textarea {
     }
 
     .access__item.__hotel tr {
-        border-bottom: 1px solid #008241
+        border-bottom: 1px solid $third-color
     }
 
     .access__item.__hotel .hotel-name {

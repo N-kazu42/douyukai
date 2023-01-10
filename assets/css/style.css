@@ -3169,4 +3169,45 @@ main {
   background-size: contain;
   width: 34.3%;
   height: 300px;
+}
+
+.schedule {
+  background: white;
+}
+
+.access {
+  background: white;
+}
+
+.lecture {
+  background: none;
+}
+
+.workingGroup {
+  background: white;
+}
+
+.perform__item.__01, .perform__item.__02 {
+  background: url(../img/bg-wave.png) center top 60px repeat-y, url(../img/body-bg.jpg) center top;
+}
+
+.overview {
+  background: url(../img/bg-wave.png) center top 60px repeat-y, url(../img/body-bg.jpg) center top;
+}
+
+.trailer {
+  background: url(../img/bg-wave.png) center top 60px repeat-y, url(../img/body-bg.jpg) center top;
+}
+
+.enforcement__ttl {
+  font-size: 2rem;
+  font-weight: 700;
+  text-align: center;
+  padding-top: 25px;
+}
+@media screen and (max-width: 767px) {
+  .enforcement__ttl {
+    font-size: 1.4rem;
+    padding-top: 15px;
+  }
 }/*# sourceMappingURL=style.css.map */
